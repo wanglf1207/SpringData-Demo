@@ -166,5 +166,6 @@
   <modules>
   	<module>SpringData-HelloWorld</module>
     <module>SpringData-RepositoryDefinition</module>
+    <module>SpringData-QueryRule</module>
   </modules>
 </project>

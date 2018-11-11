@@ -1,6 +1,5 @@
 package com.demo.jpa.repository;
 import com.demo.jpa.domain.User;
-import org.springframework.data.repository.Repository;
 import org.springframework.data.repository.RepositoryDefinition;
 
 @RepositoryDefinition(domainClass = User.class, idClass = Integer.class)
