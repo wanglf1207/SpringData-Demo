@@ -6,6 +6,20 @@
   <packaging>pom</packaging>
   <name>com.springdata.demo</name>
   <description>com.springdata.demo</description>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
   <modules>
   	<module>SpringData-HelloWorld</module>
   </modules>
