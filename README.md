@@ -1,5 +1,5 @@
 # SpringData-Demo
-SpringData-Demo
+##SpringData-Demo
 1、搭建了SpringData-HelloWorld 模块，完成了表的自动创建，数据的初始化，注意这里
  spring配置文件中，<prop key="hibernate.hbm2ddl.auto">udpate</prop>，当表不存在时可以将update修改为create
  实现自动创建表。
